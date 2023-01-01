@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Spellresearch",
+    "name": "Spell Research",
+    "authors": [ "Merick" ],
+    "description": "Created with the intent of enabling spell acquisition during innawoods gameplay. Spells can be acquired without books at th expence of a considerable amount of time",
+    "category": "magical",
+    "dependencies": [ "dda", "magiclysm" ]
+   }
+]
