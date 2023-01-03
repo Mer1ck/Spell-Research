@@ -1,0 +1,163 @@
+[
+	{
+		"type": "recipe",
+		"activity_level": "fake",
+		"result": "theory1",
+		"category": "CC_ENCHANTED",
+		"subcategory": "CSC_ENCHANTED_OTHER",
+		"tools": [
+			[
+				[ "black_pen", 10 ],
+				[ "green_pen", 10],
+				[ "red_pen", 10 ],
+				[ "blue_pen", 10 ],
+				[ "pencil", 10 ],
+				[ "makeshift_pen", 10 ]
+			]
+		],		
+		"components": [
+			[	
+				[ "paper", 10 ] 
+			]
+		],
+		"time": "6 h",
+		"proficiencies" : [ 
+			{
+				"proficiency": "spell_comp1", 
+				"required": false,
+				"learning_time_multiplier": 1.2 ,
+				"max_experience": "15 m" 
+			}
+		],
+		"skill_used": "spellcraft",
+		"difficulty": 0,
+		"autolearn": true	
+	},
+	{
+		"type": "recipe",
+		"activity_level": "fake",
+		"result": "theoryc",
+		"category": "CC_ENCHANTED",
+		"subcategory": "CSC_ENCHANTED_OTHER",
+		"tools": [
+			[
+				[ "survival_marker", -1 ]
+			]
+		],		
+		"components": [
+			[	
+				[ "paper", 50 ] 
+			]
+		],
+		"time": "6 h",
+		"proficiencies" : [ 
+			{
+				"proficiency": "spell_comp1", 
+				"required": false,
+				"learning_time_multiplier": 1.2 ,
+				"max_experience": "15 m" 
+			}
+		],
+		"skill_used": "spellcraft",
+		"difficulty": 0,
+		"autolearn": true	
+	},
+	{
+		"type": "recipe",
+		"activity_level": "fake",
+		"result": "scroll_proto_light",
+		"category": "CC_ENCHANTED",
+		"subcategory": "CSC_ENCHANTED_OTHER",
+		"tools": [
+			[
+				[ "black_pen", 30 ],
+				[ "green_pen", 30],
+				[ "red_pen", 30 ],
+				[ "blue_pen", 30 ],
+				[ "pencil", 30 ],
+				[ "makeshift_pen", 30 ]
+			]
+		],		
+		"components": [
+			[	
+				[ "paper", 20 ] 
+			],
+			[
+				[ "theory1", 2 ],
+				[ "theoryc", 2 ]
+			]
+		],
+		"time": "24 h",
+		"proficiencies" : [ 
+			{
+				"proficiency": "spell_comp1", 
+				"required": true
+			}
+		],
+		"skill_used": "spellcraft",
+		"difficulty": 3,
+		"autolearn": true	
+	},
+	{
+		"type": "recipe",
+		"activity_level": "fake",
+		"result": "makeshift_ink",
+		"category": "CC_CHEM",
+		"subcategory": "CSC_CHEM_OTHER",
+		"result_mult": 500,
+		"qualities": [
+			{ "id": "CONTAIN", "level": 1 },
+			{ "id": "FINE_GRIND", "level": 1 }
+		],
+		"components": [
+			[
+				[ "charcoal", 1 ]
+			],
+			[
+				[ "bone_glue", 1 ]
+			],
+			[
+				[ "water", 2 ],
+				[ "water_clean", 2 ]
+			]
+		],
+		"time": "30 m",
+		"skill_used": "chemistry",
+		"skills_required": [ "survival", 3 ],
+		"difficulty": 2,
+		"autolearn": [
+			[ "survival", 3 ]
+		]
+	},
+	{
+		"type": "recipe",
+		"activity_level": "LIGHT_EXERCISE",
+		"result": "makeshift_pen",
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_TOOLS",
+		"skill_used": "fabrication",
+		"difficulty": 2,
+		"skills_required": [ "survival", 1 ],
+		"time": "35 m",
+		"autolearn": true,
+		"proficiencies": [ 
+			{ "proficiency": "prof_pottery", "required": false, "time_multiplier": 1.5 }
+		],
+		"qualities": [
+			{ "id": "CUT", "level": 2 }
+		],
+		"using": [ [ "earthenware_firing", 75 ] ],
+		"components": [
+			[
+				[ "water", 1 ],
+				[ "water_clean", 1 ]
+			],
+			[
+				[ "clay_lump", 1 ]
+			],
+			[
+				[ "feather", 1 ]
+			]
+		]
+	}
+]

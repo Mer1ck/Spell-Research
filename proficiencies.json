@@ -1,0 +1,107 @@
+[
+	{
+		"type": "proficiency_category",
+		"id": "prof_spellcomp",
+		"name": "Spell Composition",
+		"description": "Proficiencies for working with mana and creating ways to bend it to your will."
+	},
+	{
+		"type": "proficiency",
+		"id": "spell_comp1",
+		"category": "prof_spellcomp",
+		"name": { "str": "Beginner's Spell Composition" },
+		"description": "You have begun your journey to understanding how mana works, and what it is capable of doing.",
+		"can_learn": true,
+		"default_time_multiplier": 4,
+		"default_fail_multiplier": 4.5,
+		"time_to_learn": "8h"
+	},
+	{
+		"type": "proficiency",
+		"id": "spell_compd",
+		"category": "prof_spellcomp",
+		"name": { "str": "Druid Spell Composition" },
+		"description": "You have discovered mana's inherent connection with nature.",
+		"can_learn": true,
+		"default_time_multiplier": 4,
+		"default_fail_multiplier": 4.5,
+		"time_to_learn": "8h"
+	},
+	{
+		"type": "proficiency",
+		"id": "spell_compb",
+		"category": "prof_spellcomp",
+		"name": { "str": "Biomancy Spell Composition" },
+		"description": "You have discovered mana's abilites to shape flesh.",
+		"can_learn": true,
+		"default_time_multiplier": 4,
+		"default_fail_multiplier": 4.5,
+		"time_to_learn": "8h"
+	},
+	{
+		"type": "proficiency",
+		"id": "spell_compm",
+		"category": "prof_spellcomp",
+		"name": { "str": "Magus Spell Composition" },
+		"description": "You have discovered that, much like arithmetic, mana can be manipulated in certain ways to produce a calculated result.",
+		"can_learn": true,
+		"default_time_multiplier": 4,
+		"default_fail_multiplier": 4.5,
+		"time_to_learn": "8h"
+	},
+	{
+		"type": "proficiency",
+		"id": "spell_compa",
+		"category": "prof_spellcomp",
+		"name": { "str": "Animism Spell Composition" },
+		"description": "You have discoverd that there are outside forces at work here, and how to use mana to channel their abilites.",
+		"can_learn": true,
+		"default_time_multiplier": 4,
+		"default_fail_multiplier": 4.5,
+		"time_to_learn": "8h"
+	},
+	{
+		"type": "proficiency",
+		"id": "spell_compk",
+		"category": "prof_spellcomp",
+		"name": { "str": "Kelvinist Spell Composition" },
+		"description": "You have discovered that mana can be used to drastically affect the temperature around you and others.",
+		"can_learn": true,
+		"default_time_multiplier": 4,
+		"default_fail_multiplier": 4.5,
+		"time_to_learn": "8h"
+	},
+	{
+		"type": "proficiency",
+		"id": "spell_comps",
+		"category": "prof_spellcomp",
+		"name": { "str": "Stormshaper Spell Composition" },
+		"description": "You have discovered how mana surges and flows, much like the weather.",
+		"can_learn": true,
+		"default_time_multiplier": 4,
+		"default_fail_multiplier": 4.5,
+		"time_to_learn": "8h"
+	},
+	{
+		"type": "proficiency",
+		"id": "spell_compt",
+		"category": "prof_spellcomp",
+		"name": { "str": "Technomancy Spell Composition" },
+		"description": "You have discoverd that mana can be channeled and forced to take physical shape, and how it can be made to cooperate with the material world.",
+		"can_learn": true,
+		"default_time_multiplier": 4,
+		"default_fail_multiplier": 4.5,
+		"time_to_learn": "8h"
+	},
+	{
+		"type": "proficiency",
+		"id": "spell_compe",
+		"category": "prof_spellcomp",
+		"name": { "str": "Earthshaper Spell Composition" },
+		"description": "You have discovered that mana runs deep through the earth, and that both can be similarly shaped.",
+		"can_learn": true,
+		"default_time_multiplier": 4,
+		"default_fail_multiplier": 4.5,
+		"time_to_learn": "8h"
+	}
+]

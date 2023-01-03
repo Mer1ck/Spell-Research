@@ -1,0 +1,70 @@
+[
+	{
+		"type": "ammunition_type",
+		"id": "makeshift_ink",
+		"name": "makeshift ink",
+		"default": "makeshift_ink"
+	},
+	{
+		"type": "AMMO",
+		"id": "makeshift_ink",
+		"name": { "str_sp": "makeshift ink" },
+		"symbol": "~",
+		"description": "A home made ink composing of finely ground carbon mixed with water and a thickener. Not as good as manufactured ink, but it gets the job done.",
+		"volume": "1 ml",
+		"weight": "1 g",
+		"color": "black",
+		"looks_like": "permanent_ink",
+		"flags": [ "TRADER_AVOID" ],
+		"phase": "liquid",
+		"ammo_type": "makeshift_ink"
+	},
+	{
+		"type": "TOOL",
+		"id": "makeshift_pen",
+		"name": { "str": "quill pen" },
+		"copy-from": "black_pen",
+		"description": "A feather with a sharpened nib paired with a ceramic container to hold ink.",
+		"weight": "100 g",
+		"volume": "50 ml",
+		"price": 200,
+		"price_postapoc": 10,
+		"material": [ "clay" ],
+		"pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "makeshift_ink": 100 }, "watertight": true, "rigid": true } ]
+	},
+	{
+		"type": "BOOK",
+		"copy-from": "spell_scroll",
+		"id": "scroll_proto_light",
+		"//": "Classless spell",
+		"name": { "str": "Scroll of Proto Light", "str_pl": "Scrolls of Proto Light" },
+		"description": "A novice's attempt at creating a magic light. It's inefficient and doesn't last long, but perhaps it can be refined?",
+		"use_action": { "type": "learn_spell", "spells": [ "create_proto_light" ] }
+	},
+	{
+		"type": "GENERIC",
+		"id": "theoryc",
+		"name": { "str": "crude theory", "str_pl": "crude theories" },
+		"category": "other",
+		"description": "A thick sheaf of papers, crudely written on with a coal pen. It contains a novice's musings on what could be true about magic. These may have to be rewritten for more advanced use, however.",
+		"weight": "150 g",
+		"volume": "300 ml",
+		"price": 50,
+		"material": [ "paper" ],
+		"symbol": "?",
+		"color": "white"
+	},
+	{
+		"type": "GENERIC",
+		"id": "theory1",
+		"name": { "str": "beginners theory", "str_pl": "beginners theories" },
+		"category": "other",
+		"description": "A small sheaf of papers containing a novice's musings on what could be true about magic.",
+		"weight": "30 g",
+		"volume": "60 ml",
+		"price": 100,
+		"material": [ "paper" ],
+		"symbol": "?",
+		"color": "white"
+	}
+]

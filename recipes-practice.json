@@ -1,0 +1,290 @@
+[
+{
+	"id": "prac_druid",
+	"type": "practice",
+	"activity_level": "NO_EXERCISE",
+	"category": "CC_PRACTICE",
+	"subcategory": "CSC_ALL",
+	"name": "druid research",
+	"description": "Look into the connections between mana and nature",
+	"skill_used": "spellcraft",
+	"time": "48 h",
+	"practice_data": { "min_difficulty": 4, "max_difficulty": 4, "skill_limit": 5 },
+	"autolearn": [ [ "spellcraft", 4 ] ],
+	"proficiencies": [ {
+		"proficiency": "spell_compd",
+		"required": false,
+		"time_multiplier": 1,
+		"fail_multiplier": 1
+	} ],
+	"components": [
+		[
+			[ "theory1", 5 ],
+			[ "theoryc", 5 ]
+		],
+		[
+			[ "paper", 10 ]
+		]
+	],
+	"tools": [ [
+		[ "makeshift_pen", 10 ],
+		[ "black_pen", 10 ],
+		[ "blue_pen", 10 ],
+		[ "red_pen", 10 ],
+		[ "green_pen", 10 ],
+		[ "pencil", 10 ]
+	] ]
+},
+{
+	"id": "prac_bio",
+	"type": "practice",
+	"activity_level": "NO_EXERCISE",
+	"category": "CC_PRACTICE",
+	"subcategory": "CSC_ALL",
+	"name": "biomancy research",
+	"description": "Look into the connections between mana and flesh",
+	"skill_used": "spellcraft",
+	"time": "48 h",
+	"practice_data": { "min_difficulty": 4, "max_difficulty": 4, "skill_limit": 5 },
+	"autolearn": [ [ "spellcraft", 4 ] ],
+	"proficiencies": [ {
+		"proficiency": "spell_compb",
+		"required": false,
+		"time_multiplier": 1,
+		"fail_multiplier": 1
+	} ],
+	"components": [
+		[
+			[ "theory1", 5 ],
+			[ "theoryc", 5 ]
+		],
+		[
+			[ "paper", 10 ]
+		]
+	],
+	"tools": [ [
+		[ "makeshift_pen", 10 ],
+		[ "black_pen", 10 ],
+		[ "blue_pen", 10 ],
+		[ "red_pen", 10 ],
+		[ "green_pen", 10 ],
+		[ "pencil", 10 ]
+	] ]
+},
+{
+	"id": "kelv_druid",
+	"type": "practice",
+	"activity_level": "NO_EXERCISE",
+	"category": "CC_PRACTICE",
+	"subcategory": "CSC_ALL",
+	"name": "kelvinist research",
+	"description": "Look into the connections between mana and thermal energy",
+	"skill_used": "spellcraft",
+	"time": "48 h",
+	"practice_data": { "min_difficulty": 4, "max_difficulty": 4, "skill_limit": 5 },
+	"autolearn": [ [ "spellcraft", 4 ] ],
+	"proficiencies": [ {
+		"proficiency": "spell_compk",
+		"required": false,
+		"time_multiplier": 1,
+		"fail_multiplier": 1
+	} ],
+	"components": [
+		[
+			[ "theory1", 5 ],
+			[ "theoryc", 5 ]
+		],
+		[
+			[ "paper", 10 ]
+		]
+	],
+	"tools": [ [
+		[ "makeshift_pen", 10 ],
+		[ "black_pen", 10 ],
+		[ "blue_pen", 10 ],
+		[ "red_pen", 10 ],
+		[ "green_pen", 10 ],
+		[ "pencil", 10 ]
+	] ]
+},
+{
+	"id": "prac_storm",
+	"type": "practice",
+	"activity_level": "NO_EXERCISE",
+	"category": "CC_PRACTICE",
+	"subcategory": "CSC_ALL",
+	"name": "stormshaping research",
+	"description": "Look into the connections between mana and weather",
+	"skill_used": "spellcraft",
+	"time": "48 h",
+	"practice_data": { "min_difficulty": 4, "max_difficulty": 4, "skill_limit": 5 },
+	"autolearn": [ [ "spellcraft", 4 ] ],
+	"proficiencies": [ {
+		"proficiency": "spell_comps",
+		"required": false,
+		"time_multiplier": 1,
+		"fail_multiplier": 1
+	} ],
+	"components": [
+		[
+			[ "theory1", 5 ],
+			[ "theoryc", 5 ]
+		],
+		[
+			[ "paper", 10 ]
+		]
+	],
+	"tools": [ [
+		[ "makeshift_pen", 10 ],
+		[ "black_pen", 10 ],
+		[ "blue_pen", 10 ],
+		[ "red_pen", 10 ],
+		[ "green_pen", 10 ],
+		[ "pencil", 10 ]
+	] ]
+},
+{
+	"id": "prac_magus",
+	"type": "practice",
+	"activity_level": "NO_EXERCISE",
+	"category": "CC_PRACTICE",
+	"subcategory": "CSC_ALL",
+	"name": "magus research",
+	"description": "Look into the arithmetic behind magic",
+	"skill_used": "spellcraft",
+	"time": "48 h",
+	"practice_data": { "min_difficulty": 4, "max_difficulty": 4, "skill_limit": 5 },
+	"autolearn": [ [ "spellcraft", 4 ] ],
+	"proficiencies": [ {
+		"proficiency": "spell_compm",
+		"required": false,
+		"time_multiplier": 1,
+		"fail_multiplier": 1
+	} ],
+	"components": [
+		[
+			[ "theory1", 5 ],
+			[ "theoryc", 5 ]
+		],
+		[
+			[ "paper", 10 ]
+		]
+	],
+	"tools": [ [
+		[ "makeshift_pen", 10 ],
+		[ "black_pen", 10 ],
+		[ "blue_pen", 10 ],
+		[ "red_pen", 10 ],
+		[ "green_pen", 10 ],
+		[ "pencil", 10 ]
+	] ]
+},
+{
+	"id": "prac_animist",
+	"type": "practice",
+	"activity_level": "NO_EXERCISE",
+	"category": "CC_PRACTICE",
+	"subcategory": "CSC_ALL",
+	"name": "animist research",
+	"description": "Look into the connections between mana and the beyond",
+	"skill_used": "spellcraft",
+	"time": "48 h",
+	"practice_data": { "min_difficulty": 4, "max_difficulty": 4, "skill_limit": 5 },
+	"autolearn": [ [ "spellcraft", 4 ] ],
+	"proficiencies": [ {
+		"proficiency": "spell_compa",
+		"required": false,
+		"time_multiplier": 1,
+		"fail_multiplier": 1
+	} ],
+	"components": [
+		[
+			[ "theory1", 5 ],
+			[ "theoryc", 5 ]
+		],
+		[
+			[ "paper", 10 ]
+		]
+	],
+	"tools": [ [
+		[ "makeshift_pen", 10 ],
+		[ "black_pen", 10 ],
+		[ "blue_pen", 10 ],
+		[ "red_pen", 10 ],
+		[ "green_pen", 10 ],
+		[ "pencil", 10 ]
+	] ]
+},
+{
+	"id": "prac_tech",
+	"type": "practice",
+	"activity_level": "NO_EXERCISE",
+	"category": "CC_PRACTICE",
+	"subcategory": "CSC_ALL",
+	"name": "technomancy research",
+	"description": "Look into the physical applications of mana",
+	"skill_used": "spellcraft",
+	"time": "48 h",
+	"practice_data": { "min_difficulty": 4, "max_difficulty": 4, "skill_limit": 5 },
+	"autolearn": [ [ "spellcraft", 4 ] ],
+	"proficiencies": [ {
+		"proficiency": "spell_compt",
+		"required": false,
+		"time_multiplier": 1,
+		"fail_multiplier": 1
+	} ],
+	"components": [
+		[
+			[ "theory1", 5 ],
+			[ "theoryc", 5 ]
+		],
+		[
+			[ "paper", 10 ]
+		]
+	],
+	"tools": [ [
+		[ "makeshift_pen", 10 ],
+		[ "black_pen", 10 ],
+		[ "blue_pen", 10 ],
+		[ "red_pen", 10 ],
+		[ "green_pen", 10 ],
+		[ "pencil", 10 ]
+	] ]
+},
+{
+	"id": "prac_earth",
+	"type": "practice",
+	"activity_level": "NO_EXERCISE",
+	"category": "CC_PRACTICE",
+	"subcategory": "CSC_ALL",
+	"name": "earthshaping research",
+	"description": "Look into the connections between mana and the earth",
+	"skill_used": "spellcraft",
+	"time": "48 h",
+	"practice_data": { "min_difficulty": 4, "max_difficulty": 4, "skill_limit": 5 },
+	"autolearn": [ [ "spellcraft", 4 ] ],
+	"proficiencies": [ {
+		"proficiency": "spell_compe",
+		"required": false,
+		"time_multiplier": 1,
+		"fail_multiplier": 1
+	} ],
+	"components": [
+		[
+			[ "theory1", 5 ],
+			[ "theoryc", 5 ]
+		],
+		[
+			[ "paper", 10 ]
+		]
+	],
+	"tools": [ [
+		[ "makeshift_pen", 10 ],
+		[ "black_pen", 10 ],
+		[ "blue_pen", 10 ],
+		[ "red_pen", 10 ],
+		[ "green_pen", 10 ],
+		[ "pencil", 10 ]
+	] ]
+}
+]
